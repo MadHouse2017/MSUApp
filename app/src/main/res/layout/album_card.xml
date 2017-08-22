@@ -1,0 +1,135 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="@dimen/album_cover_height"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                >
+            <ImageView
+                android:id="@+id/cardlogo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/album_logo_height"
+                android:layout_gravity="center"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/album_logo_height"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/album_logo_height"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/album_logo_height"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/album_logo_height"
+                    android:layout_gravity="center"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="3dp"
+                android:paddingTop="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/album_title_padding"
+                android:text="YES"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/album_title" />
+
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_toRightOf="@+id/title"
+                android:visibility="gone"
+                android:layout_below="@id/thumbnail"
+                android:src="@drawable/correct_green" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="3dp"
+                android:gravity="right"
+                android:layout_alignParentRight="true"
+                android:paddingTop="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/album_title_padding"
+                android:text="NO"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/album_title" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

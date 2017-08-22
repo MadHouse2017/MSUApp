@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp">
+   <!-- <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#00ffff">-->
+
+       <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.5"
+                android:textColor="@color/charcolBlack"
+                android:text="BRPL"/>
+
+             <Switch
+                 android:layout_weight="0.5"
+                 android:id="@+id/switch_brpl"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="30dp"
+                 android:text=""/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.5"
+                    android:textColor="@color/charcolBlack"
+                    android:text="BYPL"/>
+
+                <Switch
+                    android:layout_weight="0.5"
+                    android:id="@+id/switch_bypl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:text=""/>
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_company"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:visibility="gone"
+        android:background="@drawable/fields_style"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_compgroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:background="@drawable/fields_style"/>
+
+    <Spinner
+        android:id="@+id/spinner_employees"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:background="@drawable/fields_style"/>
+
+   <Spinner
+       android:id="@+id/spinner_last"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:visibility="gone"
+       android:background="@drawable/fields_style"/>
+
+
+
+
+         <!--  <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_cast_disabled_light"
+                >
+
+              &lt;!&ndash; <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Password"
+                   />&ndash;&gt;
+
+               <EditText
+                    android:id="@+id/message_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textColor="#333333"
+                    android:textColorHint="#666666"
+                    android:textSize="20sp" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>-->
+
+      <EditText
+                android:id="@+id/message_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:maxLength="100"
+                android:padding="10dp"
+                android:textSize="14dp"
+          android:maxLines="6"
+                android:paddingBottom="10dp"
+                android:textColor="#333333"
+                android:scrollbars="vertical"
+                android:fontFamily="sans-serif"
+                android:background="@drawable/rounded_edittext"
+                android:backgroundTint="@color/lightCharcolBlack"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:hint="Message title.."
+             />
+
+           <!-- <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_cast_disabled_light"
+                app:mtf_cardCollapsedHeight="20dp"
+                app:mtf_openKeyboardOnFocus="true"
+                >
+
+                <EditText
+                    android:id="@+id/message_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="20sp"
+                    android:textColor="#333333"
+                    android:scrollbars="vertical"
+                    android:hint="Message title"
+                    />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>-->
+
+
+
+
+    <EditText
+        android:id="@+id/message_field"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:gravity="left"
+        android:maxLength="4000"
+        android:inputType="textMultiLine"
+        android:hint="Type your message..."
+        android:backgroundTintMode="multiply"
+        android:backgroundTint="@color/lightSky"
+        android:background="@drawable/rounded_edittext"
+        android:fontFamily="sans-serif-light"
+        />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="SEND"
+            android:id="@+id/submit_message"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/rounded_button"/>
+    <!--  <TextView
+          android:id="@+id/textView1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Home Admin"
+          android:textStyle="bold" />-->
+
+
+
+   <!-- </LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

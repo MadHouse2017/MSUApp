@@ -1,0 +1,366 @@
+<resources>
+    <string name="app_name">MSU</string>
+    <string name="app_company">MadHouse</string>
+    <string name="app_name_display">MSU</string>
+    <string name="app_title_main">MadHouse MSU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="hint_empid">Employee ID</string>
+    <string name="hint_email">ईमेल</string>
+
+    <string name="hint_sdate">Start Date</string>
+    <string name="hint_edate">End Date</string>
+
+    <string name="start_signup">साइन अप करें</string>
+    <string name="start_login">लॉग इन करें</string>
+
+    <string name="houseno">घर का नंबर</string>
+    <string name="area">क्षेत्र / स्ट्रीट</string>
+    <string name="city">शहर / नगर</string>
+    <string name="pincode">पिन कोड</string>
+
+    <string name="ok">ओके</string>
+    <string name="register">पंजीयन</string>
+    <string name="alreadyregis">पहले से पंजीकृत</string>
+
+    <string name="hint_password">पासवर्ड</string>
+    <string name="hint_old_password">पुराना पासवर्ड</string>
+    <string name="hint_new_password">नया पासवर्ड</string>
+    <string name="hint_renew_password">नया पासवर्ड पुनः दर्ज करें</string>
+    <string name="btn_sign_in">लॉग इन करें</string>
+    <string name="btn_close">Title</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_confirm_email">पुष्टि करें</string>
+    <string name="err_msg_empid">Enter your employee id</string>
+    <string name="err_msg_email">मान्य ईमेल पता दर्ज करें</string>
+    <string name="err_msg_password">पासवर्ड दर्ज करे</string>
+    <string name="err_msg_re_password">फिर से दर्ज पासवर्ड मेल नहीं खाता</string>
+
+
+    <string name="loginscreen_welcome_snack">Welcome To BSES Intenal Messenger</string>
+    <string name="loginscreen_forgetPassword">पासवर्ड भूल गए</string>
+    <string name="forgetPassHeading">पासवर्ड भूल गए</string>
+    <string name="loginscreen_signup"> पंजीकृत नहीं? साइन अप करें</string>
+
+    <string name="forgetPassHint">* कृपया एक ईमेल आईडी दर्ज करें जिस पर पासवर्ड भेजा जाएगा</string>
+    <string name="filter_title">Filter</string>
+
+    <string name="start_date_calender">आरंभ करने की तिथि:</string>
+    <string name="end_date_calender">अंतिम तिथि:</string>
+
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">आगे</string>
+    <string name="skip">छोड़ें</string>
+    <string name="start">समझ गए</string>
+
+    <string name="slide_1_title">Choose Language</string>
+    <string name="slide_1_desc">(भाषा चुनें)</string>
+
+    <string name="slide_2_title">प्रारंभ करे</string>
+    <string name="slide_2_desc">हम यहां आपको योग्यता प्रदान करने के लिए हैं, अपने आप को सशक्त बनाने और अपने सपनों को सच करने के लिए। आप अपने पेशे को अपना शौक बना सकते हैं</string>
+
+    <string name="slide_3_title">अपना जुनून चुनें</string>
+    <string name="slide_3_desc">आपके कैरियर को चुनने और आकार देने के लिए आपके पास विभिन्न श्रेणियां हैं</string>
+
+    <string name="slide_4_title">एक उद्यमी बनें</string>
+    <string name="slide_4_desc">समान रुचि रखने वाले और व्यापार शुरू करने वालों के साथ सहयोग करें</string>
+
+    <string name="slide_5_title">मदद लें</string>
+    <string name="slide_5_desc">सरकार आपके व्यवसाय को बढ़ाने के लिए आवश्यक संसाधनों और पूंजी प्रदान करेगी। व्यापार को व्यावसायिक बनाने के लिए अन्य प्लेटफार्म भी प्राप्त करें</string>
+
+    <string name="slide_6_title">शुरू</string>
+    <string name="slide_6_desc">अपने व्यवसाय को एक स्थान पर आचरण और प्रबंधित करें</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <!--Registration Screen-->
+    <string name="editName">नाम</string>
+    <string name="selectdp">अपनी प्रोफ़ाइल चित्र चुनें</string>
+    <string name="editDate">अपने जन्म की तारीख दर्ज करें </string>
+    <string name="textSexType">लिंग :</string>
+    <string name="textMobNo"> प्राथमिक सम्पर्क</string>
+    <string name="textSecondaryNo"> माध्यमिक संपर्क</string>
+    <string name="textEmail">ईमेल/मोबाइल नंबर</string>
+    <string name="textPass">पासवर्ड</string>
+    <string name="textType">प्रकार</string>
+    <string name="textId">पहचान संख्या:</string>
+    <string name="editId">पहचान संख्या</string>
+    <string name="textHint">किसी अन्य आईडी का उपयोग न करें</string>
+    <string name="btnOfferlift">आगे बढ़</string>
+    <string name="btnRequestlift">Offer Lift</string>
+    <string name="spinner_title">आईडी प्रकार चुनें</string>
+
+
+    <string name="msu_questionaries_heading">प्रश्नावली</string>
+    <string name="dob">जन्म की तारीख</string>
+    <string name="primary_mobile">प्राथमिक सम्पर्क</string>
+    <string name="secondary_mobile">माध्यमिक संपर्क</string>
+
+    <!--swipe slider1-->
+    <string name="hindi">हिंदी</string>
+
+    <string name="btn_submit">जमा करें</string>
+
+    <!--Registration-->
+
+    <string name="profile_image"> अपना प्रोफ़ाइल चित्र चुनें</string>
+    <string name="id_pick">अपना आईडी चुनें </string>
+    <string name="text_enter_name">enter at least 4 characters</string>
+    <string name="text_enter_dob">enter your DOB</string>
+    <string name="radio_button_check">select your Sex</string>
+    <string name="radio_button_check_type">select your Vehicletype</string>
+    <string name="edittext_permit">Write your permit No</string>
+    <string name="edittext_rcno">Write your RC No</string>
+    <string name="edittext_dlno">Write your DL No</string>
+    <string name="spinner_vehicle_type">Select Vehicle Type</string>
+    <string name="spinner_vehicle_brand">Select Vehicle Brand</string>
+    <string name="spinner_vehicle_model">Select Vehicle Model</string>
+    <string name="text_enter_mobile">enter valid Mobile No</string>
+    <string name="text_enter_emergency">enter valid Emergency No</string>
+    <string name="text_enter_email">fill your Email id</string>
+    <string name="text_enter_valid_email">enter valid Email id</string>
+    <string name="text_enter_password">fill your Password</string>
+    <string name="text_enter_password_length">enter min 5 or max 10 digit Password</string>
+    <string name="text_enter_id_type">select your id type</string>
+    <string name="text_enter_id_no">fill your id No</string>
+
+    <string name="bhamashah_text">भामाशाह आईडी</string>
+    <string name="emitra_text">ई-मित्रा आईडी</string>
+    <string name="adhaar_text">आधार नंबर</string>
+    <string name="success_update">सफलतापूर्वक उत्परिवर्तित</string>
+
+    <string-array name="id_type_spinner">
+        <item>आईडी प्रकार चुनें</item>
+        <item>भामाशाह आईडी</item>
+        <item>ई-मित्रा आईडी</item>
+        <item>आधार </item>
+    </string-array>
+    <string-array name="id_type_val_spinner">
+        <item>select</item>
+        <item>bhamashahid</item>
+        <item>emitraid</item>
+        <item>adhaarid</item>
+    </string-array>
+
+    <string-array name="funding_needed">
+        <item>कितना धन</item>
+        <item>1 लाख से नीचे</item>
+        <item>1 से 2 लाख</item>
+        <item>2 से 5 लाख</item>
+        <item>5 से 10 लाख</item>
+        <item>10 लाख से अधिक</item>
+    </string-array>
+
+    <string-array name="funding_needed_val">
+        <item>select</item>
+        <item>less1</item>
+        <item>1to2</item>
+        <item>2to5</item>
+        <item>5to10</item>
+        <item>more10</item>
+    </string-array>
+
+
+    <string-array name="marital_status_id_array">
+        <item>select</item>
+        <item>single</item>
+        <item>married</item>
+        <item>divorced</item>
+        <item>widow</item>
+    </string-array>
+
+    <string-array name="marital_status_array">
+        <item>वैवाहिक स्थिति चुनें</item>
+        <item>अविवाहित/कभी शादी नहीं की</item>
+        <item>विवाहित</item>
+        <item>तलाकशुदा</item>
+        <item>विधवा</item>
+    </string-array>
+
+
+    <string-array name="prof_level_id_array">
+        <item>select</item>
+        <item>exellent</item>
+        <item>intermediate</item>
+        <item>begineer</item>
+    </string-array>
+    <string-array name="prof_level_array">
+        <item>वरीयता प्रवीणता</item>
+        <item>अति उत्कृष्ट</item>
+        <item>मध्यम</item>
+        <item>नौसिखिया</item>
+    </string-array>
+
+
+
+    <string name="msu_register_heading">एमएसयू पंजीकरण</string>
+    <string name="msu_login_heading">एमएसयू लॉगिन</string>
+
+
+    <!--Preference Screen-->
+    <string name="pref_heading">कार्य प्राथमिकता</string>
+    <string name="select_hobby">* अपनी वरीयता / शौक चुनें -</string>
+    <string name="pref1">कला और चित्रकारी</string>
+    <string name="pref2">लेखन (ब्लॉगिंग)</string>
+    <string name="pref3">वस्त् डिजाइनिंगर</string>
+    <string name="pref4">ईवेंट व्यवस्थापक</string>
+    <string name="pref5">ग्रीटिंग कार्ड और मोमबत्ती बनाना</string>
+    <string name="pref5a">किराना और पेटू फूड्स</string>
+    <string name="pref6">घर की सजावट कलाकृतियो बनाना</string>
+    <string name="pref7">आंतरिक डिजाइनिंग</string>
+    <string name="pref8">आभूषण बनाना</string>
+    <string name="pref9">नर्सिंग और मातृ देखभाल</string>
+    <string name="pref10">मिट्टी के बर्तन बनाना</string>
+    <string name="pref11">सिलाई और बुनाई</string>
+    <string name="pref12">स्पा और ब्यूटी पार्लर</string>
+    <string name="pref13">शिक्षण</string>
+    <string name="pref_proficiency">वरीयता प्रवीणता*</string>
+
+    <string name="proceed">आगे बढ़ें</string>
+    <string name="fill_alert">प्राथमिकता और प्रवीणता चुनें</string>
+
+
+
+
+    <string name="success_title">सफल</string>
+    <string name="success_desc">आप हमारे साथ सफलतापूर्वक पंजीकृत हो चुके हैं</string>
+
+    <string name="otp_title">उपयोगकर्ता सत्यापन</string>
+    <string name="otp_desc">अपना सत्यापन कोड दर्ज करें</string>
+    <string name="otp_resend">नही मिला? पुन: भेजें</string>
+
+    <!--Questionaries-->
+    <string name="q1">आपके अनुसार एक टीम के नेता कौन हैं?</string>
+    <string name="q1a1">जो कार्य और जिम्मेदारियों को संभालने में सक्षम है और यह सुनिश्चित करता है कि दूसरों को अपना काम पूरा किया जाए</string>
+    <string name="q1a2">जो अपने लक्ष्य को हासिल करने के लिए टीम के साथियों को प्रेरित करता है और प्रेरित करता है</string>
+    <string name="q1a3">एक व्यक्ति जो कार्य करने के लिए व्यक्तियों के समूह का संचालन करता है और निर्देशित करता है</string>
+
+    <string name="q2">आप क्या सोचते हैं कि यदि आप एक नेता थे तो आपको कितनी बार अपने साथियों से मिलना चाहिए?</string>
+    <string name="q2a1">सप्ताह मेँ एक बार</string>
+    <string name="q2a2">दो सप्ताह में एक बार</string>
+    <string name="q2a3">हफ्ते में दो बार</string>
+
+    <string name="q3">क्या आपको कभी भी कोई काम अनुभव है?</string>
+    <string name="q3a1">कोई नहीं</string>
+    <string name="q3a2">थोड़ा अनुभव</string>
+    <string name="q3a3">काफी अनुभव है</string>
+
+    <string name="q4">आप सीखने और शिक्षण मंच के बारे में क्या सोचते हैं?</string>
+    <string name="q4a1">यह अच्छा है, लेकिन मैं सबकुछ जानता हूँ और केवल सिखाना</string>
+    <string name="q4a2">मेरा मानना ​​है कि सीखना कुछ भी करने के लिए सबसे अच्छी नीति है</string>
+    <string name="q4a3">Iमानो कि यदि वह एक ही समय में सिखाता है तो कोई भी तेज़ सीख सकता है</string>
+
+    <string name="q5">आप अपने शौक / प्रतिभा का विस्तार कैसे कर सकते हैं?</string>
+    <string name="q5a1">अगर मैं अपने दम पर अभ्यास करता हूं तो मैं अच्छा कर सकता हूं</string>
+    <string name="q5a2">समान हितों वाले अन्य लोगों के साथ सहयोग करके</string>
+    <string name="q5a3">मेरे शौक का नेतृत्व करने वाले लोगों के एक समूह में शामिल होने से</string>
+
+    <!--MSU Home-->
+
+    <string name="backdrop_title">BSES</string>
+    <string name="backdrop_subtitle">Rajdhani/Yamuna Power Limited</string>
+    <string name="item_1">About App</string>
+    <!-- <![CDATA[<p>Text<p>]]>
+     Html.fromHtml("<small>" + "Dashboard" + "</small>")-->
+    <string name="item_2">फेसबुक</string>
+    <string name="item_3">ट्विटर</string>
+    <string name="item_4">केंद्र खोजें</string>
+    <string name="item_5">ऐप शेयर करें</string>
+    <string name="action_add_favourite">पसंदीदा में जोड़ें</string>
+    <string name="action_play_next">अगला चलायें</string>
+
+
+    <!--// MSU Marketplace-->
+
+    <string name="seperateecomm">हालांकि, अमेज़न और फ्लिपकार्ट जैसे मौजूदा ई-कॉमर्स दिग्गजों को बेचने के लिए एक माध्यम उपलब्ध कराने के लिए, हम केवल इस ऐप पर पंजीकृत महिलाओं द्वारा किए गए उत्पादों के लिए ई-कॉमर्स आवेदन प्रदान करेंगे।\n\n ऐसा करने से, अगर किसी को किसी प्रकार की समस्या का सामना करना पड़ता है जबकि अमेज़न या फ्लिपकार्ट पर बिक्री करते हुए वे अपने उत्पाद के लिए बाजार से कम हो जाएंगे। </string>
+    <string name="share_pdf">सरकारी अधिकारियों को अपना व्यावसायिक प्रस्ताव भेजें</string>
+    <string name="share_title">भेजे</string>
+
+
+
+    <!--FAQ DATA-->
+
+    <string name="ques1">1.एमएसयू क्या है?</string>
+    <string name="ans1">महिला समुदाय उद्योग (एमएसयू) ऐप एक मंच है जिसमें महिलाओं को उनकी प्रतिभा का प्रदर्शन करने और उद्यमिता को बढ़ावा देना है।\n\nयह उनकी प्रतिभा में मदद करने में मदद करेगा और यहां तक ​​कि एक व्यवसाय भी करेगा। </string>
+    <string name="ques2">2.शामिल कैसे हों?</string>
+    <string name="ans2">यह ऐप साइन-अप पेज पर आपके विवरण पूछेगा और फिर आपको पंजीकृत करेगा।\n\n यह आपके हित के क्षेत्र और उसके क्षेत्र में विशेषज्ञता के स्तर के बारे में पूछेगा.आप पहली बार इसका उपयोग करते समय यह ऐप भी आपका मार्गदर्शन करेगा।</string>
+    <string name="ques3">3.यह कैसे काम करता है?</string>
+    <string name="ans3">आपके द्वारा प्रदान किए गए विवरणों के आधार पर यह ऐप आपको कुछ ट्यूटोरियल दिखाएगा और इसे अपना पेशा बना देगा। \n\nयह ऐप आपके साथ समान हितों वाले लोगों के एक समूह को भी मर्ज करेगा। यदि आपके पास तैयार-से-बेचने वाला उत्पाद है तो यह ऐप आपको अपने उत्पाद को व्यावसायिक बनाने के लिए प्लेटफ़ॉर्म देगा।</string>
+    <string name="ques4">4.यह किस तरह का ट्यूटोरियल देगा?</string>
+    <string name="ans4">आपकी विशेषज्ञता पर निर्भर करते हुए, यदि आप शुरुआत कर रहे हैं तो यह आपको ट्यूटोरियल दिखाएगा कि आप क्या सीखते हैं और आपकी रुचि क्या है। \n\nयह आपके स्तर के बारे में जानने के लिए आपको कुछ नमूनों को दिखाएगा। यह आपको ट्यूटोरियल भी दिखाएगा कि आप अपना प्रतिभा कैसे अपना व्यवसाय कर सकते हैं|</string>
+    <string name="ques5">5.किस प्रकार के समूह में मुझे इसमें शामिल होगा?</string>
+    <string name="ans5">यह आपको अपने आसपास रहने वाले लोगों के समूह में शामिल करेगा और आपके समान हितों को बनाएगा। \n\n इस समूह में आप सीख सकते हैं, दूसरों को जो आप जानते हैं उन्हें सिखाना और एक नया व्यवसाय शुरू करने के लिए भी समन्वय कर सकते हैं।</string>
+    <string name="ques6">6.यह किस तरह का मंच प्रदान करेगा?</string>
+    <string name="ans6">यह ऐप आपको अमेज़न और फ्लिपकार्ट जैसी विशाल ई-कॉमर्स प्लेटफॉर्म पर व्यावसायिक बनाने के लिए एक सरल दृष्टिकोण देगा। \n\n यह आपको एक अलग ई-कॉमर्स ऐप भी प्रदान करेगा और यदि आपके पास एक स्टार्ट-अप विचार है तो यह ऐप आपके लिए सरकार से धन प्राप्त करने के लिए एक माध्यम के रूप में कार्य करेगा।</string>
+
+    <!--HOME-->
+
+    <string name="videotut1">वीडियो ट्यूटोरियल 1</string>
+    <string name="videotut2">वीडियो ट्यूटोरियल 2</string>
+    <string name="webtut1">वेब ट्यूटोरियल 1</string>
+    <string name="webtut2">वेब ट्यूटोरियल 2</string>
+    <string name="allaboutwork">काम के बारे में सब कुछ</string>
+    <string name="howtoestab">कैसे स्थापित करने के लिए?</string>
+    <string name="canyoudo">क्या आप यह कर सकते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+
+
+    <!--MENU-->
+    <string name="home">होम</string>
+    <string name="nsdc">एनएसडीसी केंद्र</string>
+    <string name="members">सदस्य स्थान</string>
+    <string name="chat">आपका समूह और चैट</string>
+    <string name="marekt">बाजार</string>
+    <string name="changepass">पासवर्ड बदलें</string>
+    <string name="logout">लोग आउट</string>
+    <string name="other">अन्य</string>
+    <string name="faq">सामान्य प्रश्न</string>
+    <string name="version">संस्करण</string>
+    <string name="aboutus">हमारे बारे में</string>
+
+    <!--CHAT APP-->
+
+    <string name="listofgroup">समूह सदस्यों की सूची</string>
+    <string name="groupchat">समूह बातचीत</string>
+    <string name="send">भेजें</string>
+    <string name="addpeople">टीम में लोगों को जोड़ें और उन्हें सतर्क भेजें!</string>
+    <string name="entermess">संदेश दर्ज करें</string>
+
+    <!--MARKET PLACE-->
+
+    <string name="mahilaehaat">महिला ई-हाट</string>
+    <string name="fundingpro">फंडिंग प्रस्ताव</string>
+    <string name="seperateeco">अलग ई-कॉमर्स अनुप्रयोग</string>
+    <string name="existingecom">मौजूदा बेचना प्लेटफार्म</string>
+    <string name="mahila">सरकार द्वारा उपलब्ध कराई गई ऑनलाइन बेचना उत्पाद</string>
+    <string name="govt">वित्त पोषण / पूंजी प्राप्त करने के लिए सरकार को प्रस्ताव</string>
+    <string name="unique">इस अद्वितीय ऐप के साथ अपना उत्पाद पंजीकृत करें और बेचें</string>
+    <string name="exist">अमेज़न, फ्लिपकार्ट, पेटीएम इत्यादि जैसे मौजूदा ईकॉमर्स मंच पर बेचना</string>
+
+    <!--MAHILA E-HAAT-->
+
+    <string name="join">महिला ई-हाट में जुड़ें</string>
+    <string name="about">ई-हाट के बारे में</string>
+    <string name="mahilafaq">सामान्य प्रश्न</string>
+    <string name="contact">ई-हाट से संपर्क करें</string>
+
+    <!--EXISTING SELLING PLATFORM-->
+    <string name="flipkart">पकार्ट</string>
+    <string name="sellf">फ्लिपकार्ट विक्रेता आवेदन प्राप्त करें</string>
+    <string name="amazon">अमेज़ॅन</string>
+    <string name="sella">अमेज़ॅन विक्रेता आवेदन प्राप्त करें</string>
+    <string name="paytm">पेटीएम</string>
+    <string name="sellp">पेटीएम विक्रेता आवेदन प्राप्त करें</string>
+
+
+</resources>

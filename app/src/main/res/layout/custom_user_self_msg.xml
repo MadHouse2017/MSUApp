@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="right"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="5dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="right"
+        android:background="@drawable/bg_bubble_gray"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/timestampUser"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:singleLine="true"
+            android:padding="6dp"
+            android:textColor="#4d4848"
+            android:text="15-Mar-2016"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/messageUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:text="Hiiii, Reply hai."
+            android:textIsSelectable="true"
+            android:textSize="14dp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageAttachmentUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/timestamp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:scaleType="matrix" />
+
+        <TextView
+            android:id="@+id/userNameReplied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="#f17e7e"
+            android:text=""
+            android:textIsSelectable="true"
+            android:textSize="12dp" >
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_nsdc_center"
+            android:icon="@drawable/ic_nsdc_center"
+            android:title="@string/nsdc" />
+        <item
+            android:id="@+id/nav_members_location"
+            android:icon="@drawable/ic_member_location"
+            android:title="@string/members" />
+
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/message"
+            android:title="@string/chat" />
+
+        <item
+            android:id="@+id/nav_marketplace"
+            android:icon="@drawable/ic_market_place"
+            android:title="@string/marekt" />
+
+
+        <item
+            android:id="@+id/nav_changepass"
+            android:icon="@drawable/changepass"
+            android:title="@string/changepass" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+
+
+
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_faq"
+                android:title="@string/faq" />
+            <item
+                android:id="@+id/nav_version"
+                android:icon="@drawable/version"
+                android:title="@string/version" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/aboutus"
+                android:title="@string/aboutus" />
+        </menu>
+    </item>
+
+</menu>

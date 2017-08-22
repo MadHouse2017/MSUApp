@@ -1,0 +1,388 @@
+<resources>
+    <string name="app_name">MSU</string>
+    <string name="app_name_full_hindi">महिला समूह उद्योग</string>
+    <string name="app_company">MadHouse</string>
+    <string name="app_name_display">MSU</string>
+    <string name="app_title_main">MadHouse MSU</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hint_empid">Employee ID</string>
+    <string name="hint_email">Email</string>
+
+    <string name="hint_sdate">Start Date</string>
+    <string name="hint_edate">End Date</string>
+
+    <string name="hint_password">Password</string>
+    <string name="hint_old_password">Old Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_renew_password">Re-Enter New Password</string>
+    <string name="btn_sign_in">Log In</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_close">Title</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="btn_confirm_email">Confirm</string>
+    <string name="err_msg_empid">Enter your employee id</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="gps_network_not_enabled">Please Enable Your GPS Network</string>
+    <string name="err_msg_re_password">Re-Enter password does not match</string>
+
+
+    <string name="loginscreen_welcome_snack">Welcome To BSES Intenal Messenger</string>
+    <string name="loginscreen_forgetPassword">Forgot Password  </string>
+    <string name="loginscreen_signup">  Not Registered? Sign Up</string>
+
+    <string name="forgetPassHeading">Forgot Password</string>
+    <string name="forgetPassHint">* Please enter an email id on which password will be sent</string>
+    <string name="filter_title">Filter</string>
+
+    <string name="start_date_calender">Start Date:</string>
+    <string name="end_date_calender">End Date:</string>
+
+    <string name="aboutusdata"><b><i> BSES Yamuna Power Limited (BYPL)</i></b> \n BYPL distributes power to an area spread over 200 sq kms with a customer density of 7600 per sq km.</string>
+    <string name="aboutusdatarpl"><b><i>BSES Rajdhani Power Limited (BRPL)</i></b> \n BRPL distributes power to an area spread over 750 sq. km with a customer density of ~3000 per sq km.</string>
+
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+
+    <string name="start_signup">SIGNUP</string>
+    <string name="start_login">LOGIN</string>
+
+    <string name="slide_1_title">Choose Language</string>
+    <string name="slide_1_desc">(भाषा चुनें)</string>
+
+    <string name="slide_2_title">Start Journey</string>
+    <string name="slide_2_desc">We are here to provide you with apportunities, for empowering yourself
+                                        and make your dreams come true. You can make your hobby/passion your profession</string>
+
+    <string name="slide_3_title">Choose Your Passion</string>
+    <string name="slide_3_desc">You have various categories to choose from and shape your career</string>
+
+    <string name="slide_4_title">Become an Entrepreneur</string>
+    <string name="slide_4_desc">Collaborate with those having similar interest and start business</string>
+
+    <string name="slide_5_title">Get Help</string>
+    <string name="slide_5_desc">Government will provide with the necessary resources and capital to grow your business. Also
+                                                 get other platforms to commercialise the business</string>
+
+    <string name="slide_6_title">Begin</string>
+    <string name="slide_6_desc">conduct and manage your business all at one place</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+
+    <!--Registration Screen-->
+    <string name="editName">Name</string>
+    <string name="editDate">enter your DOB</string>
+    <string name="textSexType">Marital Status :</string>
+    <string name="textMobNo">9899559944</string>
+    <string name="textSecondaryNo">Secondary Contact</string>
+    <string name="textEmail">Email/Mob. Number</string>
+    <string name="textPass">Password</string>
+    <string name="textType">Type</string>
+    <string name="textId">Id No:</string>
+    <string name="editId">ID No</string>
+    <string name="textHint">Do not use any other id</string>
+    <string name="btnOfferlift">PROCEED</string>
+    <string name="btnRequestlift">Offer Lift</string>
+    <string name="spinner_title">Select Id Type</string>
+
+    <string name="bhamashah_text">Bhamashah ID</string>
+    <string name="emitra_text">E-Mitra ID</string>
+    <string name="adhaar_text">Adhaar ID</string>
+    <string name="selectdp">Select Your Profile Picture</string>
+
+    <string name="houseno">House Number</string>
+    <string name="area">Area/Street</string>
+    <string name="city">City/Town</string>
+    <string name="pincode">Pincode</string>
+
+    <!--swipe slider1-->
+    <string name="hindi">हिंदी</string>
+
+
+
+    <!--Registration-->
+
+    <string name="profile_image">select your profile pick</string>
+    <string name="id_pick">select your Id pick</string>
+    <string name="text_enter_name">enter at least 4 characters</string>
+    <string name="text_select_idtype">select id type</string>
+    <string name="text_enter_dob">enter your DOB</string>
+    <string name="marital_status">select your Marital Status</string>
+    <string name="radio_button_check_type">select your Vehicletype</string>
+    <string name="edittext_permit">Write your permit No</string>
+    <string name="edittext_rcno">Write your RC No</string>
+    <string name="edittext_dlno">Write your DL No</string>
+    <string name="spinner_vehicle_type">Select Vehicle Type</string>
+    <string name="spinner_vehicle_brand">Select Vehicle Brand</string>
+    <string name="spinner_vehicle_model">Select Vehicle Model</string>
+    <string name="text_enter_mobile">enter valid Mobile No</string>
+    <string name="text_enter_emergency">enter valid Secondary No</string>
+    <string name="text_enter_email">fill your Email id</string>
+    <string name="text_enter_valid_email">enter valid Email id</string>
+    <string name="text_enter_password">fill your Password</string>
+    <string name="text_enter_password_length">enter min 4 or max 10 digit Password</string>
+    <string name="text_enter_id_type">select your id type</string>
+    <string name="text_enter_id_no">fill your id No</string>
+    <string name="fill_details">fill details</string>
+    <string name="text_select_fund">select required fund</string>
+
+    <string-array name="id_type_spinner">
+        <item>Select Id Type</item>
+        <item>Bhamashah ID</item>
+        <item>E-Mitra ID</item>
+        <item>Adhaar Number</item>
+    </string-array>
+
+    <string-array name="id_type_val_spinner">
+        <item>select</item>
+        <item>bhamashahid</item>
+        <item>emitraid</item>
+        <item>adhaarid</item>
+    </string-array>
+
+
+    <string-array name="funding_needed">
+        <item>Funding Required</item>
+        <item>Below 1 Lakh</item>
+        <item>1 To 2 Lakh</item>
+        <item>2 To 5 Lakh</item>
+        <item>5 To 10 Lakh</item>
+        <item>More Than 10 Lakh</item>
+    </string-array>
+
+    <string-array name="funding_needed_val">
+        <item>select</item>
+        <item>less1</item>
+        <item>1to2</item>
+        <item>2to5</item>
+        <item>5to10</item>
+        <item>more10</item>
+    </string-array>
+
+
+    <string-array name="marital_status_array">
+        <item>Select Marital Staus</item>
+        <item>Single/Never Married</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow</item>
+    </string-array>
+
+    <string-array name="marital_status_id_array">
+        <item>select</item>
+        <item>single</item>
+        <item>married</item>
+        <item>divorced</item>
+        <item>widow</item>
+    </string-array>
+
+    <string-array name="prof_level_array">
+        <item>Preference Proficiency</item>
+        <item>Excellent</item>
+        <item>Intermediate</item>
+        <item>Beginner</item>
+    </string-array>
+
+    <string-array name="prof_level_id_array">
+        <item>select</item>
+        <item>exellent</item>
+        <item>intermediate</item>
+        <item>begineer</item>
+    </string-array>
+
+
+    <string name="msu_register_heading">MSU Registration</string>
+    <string name="msu_questionaries_heading">Questionnaries</string>
+    <string name="msu_login_heading">MSU Login</string>
+    <string name="dob">Date of birth</string>
+    <string name="primary_mobile">Primary mobile</string>
+    <string name="secondary_mobile">Secondary mobile</string>
+    <string name="single">Single/Never Married</string>
+    <string name="married">Married</string>
+    <string name="divorce">Divorced</string>
+    <string name="widow">Widow</string>
+
+
+
+    <!--Preference Screen-->
+    <string name="pref_heading">Work Preference</string>
+    <string name="select_hobby">* Select Your Preference/Hobby -</string>
+    <string name="pref1">Art &amp; Painting</string>
+    <string name="pref2">Content Writing(Blogging)</string>
+    <string name="pref3">Customise Clothing</string>
+    <string name="pref4">Event Organiser</string>
+    <string name="pref5">Greeting Card &amp; Candle Making</string>
+    <string name="pref5a">Grocery &amp; Gourmet Foods</string>
+    <string name="pref6">Home Made Arti-Crafts Making</string>
+    <string name="pref7">Interior Designing</string>
+    <string name="pref8">Jewellery Making</string>
+    <string name="pref9">Nursing &amp; Maternal Care</string>
+    <string name="pref10">Pottery Making</string>
+    <string name="pref11">Sewing &amp; Knitting</string>
+    <string name="pref12">Spa &amp; Beauty Parlour</string>
+    <string name="pref13">Teaching &amp; Tuition</string>
+    <string name="pref_proficiency">Preference Proficiency *</string>
+
+    <string name="proficiency_l1">Excellent</string>
+    <string name="proficiency_l2">Intermediate</string>
+    <string name="proficiency_l3">Beginner</string>
+    <string name="proceed">PROCEED</string>
+    <string name="fill_alert">Select Preference and Proficiency</string>
+
+
+
+    <!--Questionaries-->
+    <string name="q1">Who is a team leader according to you?</string>
+    <string name="q1a1">One who is able to handle tasks and responsibilities and ensure that others get their work done</string>
+    <string name="q1a2">One who inspires and motivates her teammates to achieve their goals</string>
+    <string name="q1a3">One who administers and coordinates a group of individuals to perform a task</string>
+
+    <string name="q2">What do you think that how often you should meet your team if you are a leader?</string>
+    <string name="q2a1">Once a week</string>
+    <string name="q2a2">Once in two weeks</string>
+    <string name="q2a3">Twice a week</string>
+
+    <string name="q3">Have you ever had any work experience?</string>
+    <string name="q3a1">None</string>
+    <string name="q3a2">A Little experience</string>
+    <string name="q3a3">I have a lot of experience in work</string>
+
+    <string name="q4">What do you think about a learning and teaching platform?</string>
+    <string name="q4a1">It is good but I know everything and can only teach</string>
+    <string name="q4a2">I believe learning is the best policy to do anything</string>
+    <string name="q4a3">I believe that one can learn fast if she teaches at the same time</string>
+
+    <string name="q5">How do you think you can expand your hobby/talent?</string>
+    <string name="q5a1">I can do well if i practice on my own</string>
+    <string name="q5a2">By collaborating with others having similar interests</string>
+    <string name="q5a3">By joining a group of people leading my hobby</string>
+
+
+    <string name="success_title">Successful</string>
+    <string name="success_desc">You have been successfully registered with us.</string>
+    <string name="success_update">successfully Updated</string>
+
+    <string name="otp_title">User Verification</string>
+    <string name="otp_desc">Please enter your verification code</string>
+    <string name="otp_resend">Not Received? Resend</string>
+
+    <!--MSU Home-->
+
+    <string name="backdrop_title">BSES</string>
+    <string name="backdrop_subtitle">Rajdhani/Yamuna Power Limited</string>
+    <string name="item_1">About App</string>
+    <!-- <![CDATA[<p>Text<p>]]>
+     Html.fromHtml("<small>" + "Dashboard" + "</small>")-->
+    <string name="item_2">Facebook</string>
+    <string name="item_3">Twitter</string>
+    <string name="item_4">Locate Centers</string>
+    <string name="item_5">Share App</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="ok">Ok</string>
+    <string name="register">Registering</string>
+    <string name="alreadyregis">Already Registered</string>
+
+
+
+
+    <!--// MSU Marketplace-->
+
+    <string name="seperateecomm">Whilst providing a medium to sell on the existing e-commerce giants like amazon and flipkart, we will provide an E-commerce Application solely for the products made by the women registered on this App.\n\nBy doing such, if anyone faces any kind of problem while selling on amazon or flipkart they would fall short of the market for their product. </string>
+    <string name="share_pdf">Send your business proposal to government officials</string>
+    <string name="share_title">Send To</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--FAQ DATA-->
+
+    <string name="ques1">1.What is MSU?</string>
+    <string name="ans1">Mahila Samuh Udyog (MSU) app is a platform to help women showcase their talent and promote entrepreneurship among them. \n\nIt would help master their talent and even make it a profession. </string>
+    <string name="ques2">2.How to join?</string>
+    <string name="ans2">This app will ask for your details at the sign-up page and then registers you. \n\nIt will ask for your field of interest and your level of expertise in it.This app will also guide you when you are using it for the first time.</string>
+    <string name="ques3">3.How does it work?</string>
+    <string name="ans3">Based on the details provided by you this app will show you some tutorials to master it and make it your profession. \n\nThis app will also merge with you a group of people with similar interests. If you have a ready-to-sell product this app will give you platforms to commercialize your product.</string>
+    <string name="ques4">4.What kind of tutorials will it provide?</string>
+    <string name="ans4">Depending on your expertise, if you are a beginner then it will show you tutorials on how to learn and do in what you are interested. \n\nIt will show you some samples to know about your level.It will also show tutorials on how you can make your talent your profession.</string>
+    <string name="ques5">5.In what kind of group will it include me?</string>
+    <string name="ans5">It will include you in a group of people living near you and having similar interests as yours. \n\nIn this group you can learn,teach others what you know and even collborate to start a new business.</string>
+    <string name="ques6">6.What kind of platform will it provide to\n     commercialize?</string>
+    <string name="ans6">This app will give you a simple approach to commercialize on giant e-commerce platforms like amazon and flipkart. \n\nIt will also provide you with a separate e-commerce app and if you have a start-up idea this app will act as a medium for you to get funding from the government.</string>
+
+    <string name="btn_cancel">Cancel</string>
+    <string name="open_location_settings">Enable</string>
+
+    <!--HOME-->
+
+    <string name="videotut1">Video Tutorial 1</string>
+    <string name="videotut2">Video Tutorial 2</string>
+    <string name="webtut1">Web Tutorial 1</string>
+    <string name="webtut2">Web Tutorial 2</string>
+    <string name="allaboutwork">All About Work</string>
+    <string name="howtoestab">How to Establish?</string>
+    <string name="canyoudo">Can You Do It?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--MENU-->
+    <string name="home">Home</string>
+    <string name="nsdc">NSDC Centres</string>
+    <string name="members">Members Location</string>
+    <string name="chat">Your Group &amp; Chat</string>
+    <string name="marekt">Marekt Place</string>
+    <string name="changepass">Chnage Password</string>
+    <string name="logout">Logout</string>
+    <string name="other">Other</string>
+    <string name="faq">FAQ</string>
+    <string name="version">Version</string>
+    <string name="aboutus">About Us</string>
+
+    <!--CHAT APP-->
+
+    <string name="listofgroup">List of Group Members</string>
+    <string name="groupchat">GROUP CHAT</string>
+    <string name="send">SEND</string>
+    <string name="addpeople">Add people into team &amp; send them alert!</string>
+    <string name="entermess">Enter message</string>
+
+    <!--MARKET PLACE-->
+
+    <string name="mahilaehaat">Mahila E-Haat</string>
+    <string name="fundingpro">Funding Proposal</string>
+    <string name="seperateeco">Seperate E-Commerce Application</string>
+    <string name="existingecom">Existing Selling Platform</string>
+    <string name="mahila">Online Selling Products provided by government</string>
+    <string name="govt">Proposal to government for getting funding/capital</string>
+    <string name="unique">Register and sell your product with this unique app</string>
+    <string name="exist">Sell on existing ecommerce platform like amazon, flipkart, paytm etc.</string>
+
+    <!--MAHILA E-HAAT-->
+
+    <string name="join">Join Mahila E-haat</string>
+    <string name="about">About E-Haat</string>
+    <string name="mahilafaq">FAQ</string>
+    <string name="contact">Contact E-Haat</string>
+
+    <!--EXISTING SELLING PLATFORM-->
+    <string name="flipkart">Flipkart</string>
+    <string name="sellf">Get Flipkart Seller Application</string>
+    <string name="amazon">Amazon</string>
+    <string name="sella">Get Amazon Seller Application</string>
+    <string name="paytm">Paytm</string>
+    <string name="sellp">Get Amazon Seller Application</string>
+
+
+
+</resources>

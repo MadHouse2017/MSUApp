@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true" >
+
+    <alpha
+        android:duration="10000"
+        android:startOffset = "1000"
+        android:repeatMode = "restart"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="1.0" />
+
+</set>
+
+   <!-- android:duration – Duration of the animation in which the animation should complete
+
+    android:startOffset – It is the waiting time before an animation starts. This property is mainly used to perform multiple animations in a sequential manner
+
+    android:interpolator – It is the rate of change in animation
+
+    android:fillAfter – This defines whether to apply the animation transformation after the animation completes or not. If it sets to false the element changes to its previous state after the animation. This attribute should be use with <set> node
+
+android:repeatMode – This is useful when you want your animation to be repeat
+
+android:repeatCount – This defines number of repetitions on animation. If you set this value to infinite then animation will repeat infinite times-->

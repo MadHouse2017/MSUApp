@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardBackgroundColor="#e9e9e9"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent">
+
+          <!--  <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY" />-->
+
+            <LinearLayout
+                android:id="@+id/thumbnail"
+                android:layout_width="80dp"
+                android:visibility="gone"
+                android:layout_height="50dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:scaleType="fitXY"
+                >
+                <ImageView
+                    android:id="@+id/cardlogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+                <ImageView
+                    android:id="@+id/cardlogo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+                <ImageView
+                    android:id="@+id/cardlogo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:visibility="gone"
+                    android:scaleType="centerInside" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/thumbnail"
+                android:paddingLeft="15dp"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:layout_marginTop="1dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/charcolBlack"
+                android:textSize="5dp" />
+
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title"
+                android:layout_toRightOf="@id/thumbnail"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingRight="@dimen/album_title_padding"
+                android:textStyle="italic|bold"
+                android:textColor="@color/charcolBlackLight"
+                android:text="other links"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="10dp"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:paddingRight="5dp"
+                android:layout_toRightOf="@+id/count"
+                android:scaleType="centerCrop"
+                android:src="@drawable/next" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

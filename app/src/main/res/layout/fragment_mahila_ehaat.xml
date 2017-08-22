@@ -1,0 +1,310 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/ehaat"
+    android:background="@color/wallet_bright_foreground_holo_dark"
+    android:theme="@style/AppTheme">
+
+   <!-- <include layout="@layout/custom_toolbar" />-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:padding="5dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view1">
+
+
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/join"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="Join mahila e-haat | (http://mahilaehaat-rmk.gov.in/en/join-us/)"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@drawable/next" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view2">
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/about"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title2"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="All about mahila e-haat | (http://mahilaehaat-rmk.gov.in/en/about-e-haat/)"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/next" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view3">
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/mahilafaq"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title3"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="25dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="Mahila E-haat – FAQ | (http://mahilaehaat-rmk.gov.in/en/faq/)"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@drawable/next" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/view4">
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/contact"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title4"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="Are you curious about something? Do you have some kind of problem with our products?"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+
+                    android:src="@drawable/next" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+       <!-- <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/loginscreen_forgetPassword"/>-->
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,475 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/wallet_bright_foreground_holo_dark"
+    android:theme="@style/AppTheme">
+
+   <!-- <include layout="@layout/custom_toolbar" />-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="70dp"
+                    android:background="@color/safetytip"
+                    android:clickable="true"
+                    android:weightSum="1"
+                    >
+                    <ImageView
+                        android:id="@+id/cardlogo"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.23"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/ehaat"
+                        android:clickable="true"
+                         />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.67"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:id="@+id/move1"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:layout_weight="0.10"
+                        android:src="@drawable/next" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/mahilaehaat"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="@string/mahila"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/count"
+                    android:visibility="gone"
+                    android:layout_below="@id/thumbnail"
+                    android:src="@drawable/correct_green" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/thumbnail2"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="70dp"
+                    android:background="@color/myaccount"
+                    android:clickable="true"
+                    android:weightSum="1"
+                    >
+                    <ImageView
+                        android:id="@+id/cardlogo2"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/gov_fund"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.65"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:id="@+id/move2"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:layout_weight="0.10"
+                        android:src="@drawable/next" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail2"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/fundingpro"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title2"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="@string/govt"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow2"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/count2"
+                    android:visibility="gone"
+                    android:layout_below="@id/thumbnail2"
+                    android:src="@drawable/correct_green" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/thumbnail3"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="70dp"
+                    android:background="@color/wallet_holo_blue_light"
+                    android:clickable="true"
+                    android:weightSum="1"
+                    >
+                    <ImageView
+                        android:id="@+id/cardlogo3"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/ecom"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.65"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:id="@+id/move3"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:layout_weight="0.10"
+                        android:src="@drawable/next" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail3"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/seperateeco"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title3"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="@string/unique"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow3"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/count3"
+                    android:visibility="gone"
+                    android:layout_below="@id/thumbnail3"
+                    android:src="@drawable/correct_green" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:elevation="3dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/thumbnail4"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="70dp"
+                    android:background="@color/seagreen"
+                    android:clickable="true"
+                    android:weightSum="1"
+                    >
+                    <ImageView
+                        android:id="@+id/cardlogo4"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.25"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/existecom"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="70dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.65"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        />
+
+                    <ImageView
+                        android:id="@+id/move4"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:layout_weight="0.10"
+                        android:src="@drawable/next" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/thumbnail4"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:text="@string/existingecom"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlack"
+                    android:textSize="@dimen/album_title" />
+
+
+                <TextView
+                    android:id="@+id/count4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title4"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="3dp"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingBottom="@dimen/album_title_padding"
+                    android:text="@string/exist"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="@color/charcolBlackLight"
+                    android:textSize="@dimen/album_title" />
+
+                <ImageView
+                    android:id="@+id/overflow4"
+                    android:layout_width="40dp"
+                    android:layout_height="35dp"
+                    android:layout_toRightOf="@+id/count4"
+                    android:visibility="gone"
+                    android:layout_below="@id/thumbnail4"
+                    android:src="@drawable/correct_green" />
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button android:id="@+id/btn_change_pass_submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_submit"
+            android:visibility="gone"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+
+       <!-- <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/loginscreen_forgetPassword"/>-->
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

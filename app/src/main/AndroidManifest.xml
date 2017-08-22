@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.madhouse.msu.v10">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:name=".webServices.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MSU.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MSU.MainActivity"
+            android:theme="@style/AppTheme.Default" />
+        <activity
+            android:name=".MSU.LoginScreen"
+            android:theme="@style/AppTheme.Default" />
+        <activity
+            android:name=".MSU.ForgetPassword"
+            android:theme="@style/AppTheme.Default" />
+        <activity
+            android:name=".MSU.WelcomeActivity"
+            android:configChanges="locale|orientation" />
+        <activity
+            android:name=".MSU.RegistrationDetails"
+            android:theme="@style/AppTheme.Default" />
+        <activity
+            android:name=".applicationUtils.Youtube"
+            android:theme="@style/AppTheme.Default" />
+
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+
+
+        <!-- Add preview activity. -->
+        <!--
+        <activity
+            android:name="com.google.android.gms.tagmanager.PreviewActivity"
+            android:label="@string/app_name"
+            android:noHistory="true">  &lt;!&ndash; optional, removes the previewActivity from the activity stack. &ndash;&gt;
+            <intent-filter>
+                <data android:scheme="com.bses.krishna.bses_im_v10" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBos3h1oQx8uFtiDb_0lJ2bxlAX_JBGKoM" />
+
+        <!-- Firebase Notifications -->
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity android:name=".MSU.SingleUserChatActivity" />
+        <activity android:name=".MSU.MultiUserChatActivity"></activity>
+    </application>
+
+</manifest>
